@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纽约市出租车分析</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column; /* 新增：垂直居中 */
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px; /* 新增：增加底部间距 */
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        ul {
+            text-align: left;
+            margin-left: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-top: 20px; /* 新增：增加顶部间距 */
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+        /* 新增：设置热力图和大屏的样式 */
+        .heatmap, .dashboard {
+            height: 400px;
+            background-color: #f9f9f9;
+            margin-top: 20px; /* 调整间距 */
+            text-align: center;
+            padding: 20px;
+        }
+        .heatmap h2, .dashboard h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到本团队的大屏项目！</h1>
+        <p>这个项目展示了关于年度打车数据统计的可视化信息。通过图表和数据分析，我们可以了解每年的打车趋势、总行程、平均距离、总收入等信息。</p>
+        <p>在这个项目中，我进行了以下数据分析：</p>
+        <ul>
+            <li>打车趋势分析</li>
+            <li>平均距离分析</li>
+            <li>总收入分析</li>
+            <li>平均乘客数分析</li>
+            <li>平均行程时长分析</li>
+            <li>各月份的打车次数以及人均消费情况</li>
+            <li>从各地点打车的总次数并用热力图表示</li>
+            <li>统计Bronx区，Manhattan区，Queens区，Staten Island区，Brooklyn区的出租车总营收</li>
+        </ul>
+        <p>您可以在 GitHub 上查看我的项目代码：</p>
+        <a class="button" href="https://github.com/yourusername/yourproject" target="_blank">
+            <i class="icon fas fa-code"></i> 项目链接
+        </a>
+        <p>想了解更多？请查看<a href="heatmap.html">热力图</a>和<a href="templates/index.html">大屏</a>。</p>
+</body>
+</html>
